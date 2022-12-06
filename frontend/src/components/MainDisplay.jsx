@@ -40,12 +40,12 @@ const PlayButton = styled.button`
     width: 50px;
     padding: 10px;
 
-    // &:hover {
-    //     // fl4g 🏳️‍🌈
-    //     // Congrats, you found a flag! I'm also a bug, fix me if you can!
-    //     transform: translateX(-100px);
-    //     transition: transform 0.1s ease-in-out;
-    // }
+    &:hover {
+        // fl4g 🏳️‍🌈
+        // Congrats, you found a flag! I'm also a bug, fix me if you can!
+        transform: translateX(-100px);
+        transition: transform 0.1s ease-in-out;
+    }
 `;
 
 const CurrentlyPlayingDetails = styled.div`
