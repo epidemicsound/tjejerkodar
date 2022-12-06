@@ -1,0 +1,52 @@
+#root {
+  max-width: 375px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+.App {
+  width: 375px;
+}
+
+.artist-label {
+  font-size: 0.8rem;
+}
+
+/* -------------------- Fonts -------------------- */
+
+/* woff */
+@font-face {
+  font-family: 'Epidemic';
+  font-weight: 500;
+  src: url('./assets/fonts/epidemic/Epidemic-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Epidemic';
+  font-weight: 600;
+  src: url('./assets/fonts/epidemic/Epidemic-DemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Epidemic';
+  font-weight: 700;
+  src: url('./assets/fonts/epidemic/Epidemic-Bold.woff') format('woff');
+}
+
+/* woff2 */
+@font-face {
+  font-family: 'Epidemic';
+  font-weight: 500;
+  src: url('./assets/fonts/epidemic/Epidemic-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Epidemic';
+  font-weight: 600;
+  src: url('./assets/fonts/epidemic/Epidemic-DemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Epidemic';
+  font-weight: 700;
+  src: url('./assets/fonts/epidemic/Epidemic-Bold.woff2') format('woff2');
+}
